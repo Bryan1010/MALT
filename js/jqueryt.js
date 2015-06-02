@@ -1,7 +1,6 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
-    $ ("#register").hide
+    $ ("#register").hide();
     $("#signup").click(function(){
-        ("#register").slideDown();
+        $("#register").slideDown();
     });
 });
